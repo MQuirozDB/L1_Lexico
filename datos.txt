@@ -1,0 +1,56 @@
+# UNIVERSIDAD DE SANTIAGO DE CHILE
+# DEPARTAMENTO DE INFORMATICA
+# LABORATORIO N 1 COMPILADORES
+# ANALISIS LEXICO
+#
+# 
+# Datos Base (ANFD-e):
+#---------------------------------------------------------------------- 
+#
+# Producciones: (para dejar un campo vacio ingrese &) 
+#qx->/0/1/vacio/
+ q0->/&/&/1/
+ q1->/&/&/2,8/
+ q2->/&/&/3,4/
+ q3->/5/&/&/
+ q4->/&/6/&/
+ q5->/&/&/7/
+ q6->/&/&/7/
+ q7->/&/&/17/
+ q8->/9/&/&/
+ q9->/&/&/10,16/
+ q10->/&/&/11,12/
+ q11->/13/&/&/
+ q12->/&/14/&/
+ q13->/&/&/15/
+ q14->/&/&/15/
+ q15->/&/&/10,16/
+ q16->/&/&/17/
+ q17->/&/&/&/
+# 
+ Q INICIAL->/0/
+ Q FINAL->/17/
+# 
+# 
+# ANFD-E para concatenacion:
+#---------------------------------------------------------------------- 
+#
+# Desea Concatenar el ANFD-e (SI/NO)
+#
+ Respuesta-> /SI/
+#
+# Ingrese el tipo de concatenacion /Q+R/ o /Q*R/
+#
+ Concatenacion--> /Q*R/
+# 
+# Ingrese aqui el ANFD-e que posteriormente podra concatenar con Q
+#
+ r0->/&/1/&/
+ r1->/&/&/&/
+#
+ R INICIAL->/0/
+ R FINAL->/1/
+# 
+
+
+
